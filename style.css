@@ -1,0 +1,37 @@
+body{
+   background-color: #4B0082
+}
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.notification {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    max-width: 300px; 
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.notification p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+#randomButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
